@@ -1,0 +1,31 @@
+name: german-studio-wp-test
+services:
+  mysql:
+    image: mariadb:11.4.10
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: disposable-test-only
+      MARIADB_ROOT_PASSWORD: disposable-root-test-only
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 3s
+      retries: 30
+  wordpress:
+    image: wordpress:6.9-php8.3-apache
+    environment:
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: disposable-test-only
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_CONFIG_EXTRA: "define('WP_ENVIRONMENT_TYPE', 'local');"
+    ports:
+      - "127.0.0.1:18081:80"
+    depends_on:
+      mysql:
+        condition: service_healthy
+    volumes:
+      - wp-test:/var/www/html
+      - ../wordpress/german-studio-connector:/var/www/html/wp-content/plugins/german-studio-connector:ro
+volumes:
+  wp-test:

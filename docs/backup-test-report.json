@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Consistent database and file backup",
+    "Archive checksums",
+    "Restoration to a fresh Compose project",
+    "Original file integrity",
+    "External master key decrypts credentials",
+    "Restored volume writable as UID 10001",
+    "Restart persistence"
+  ],
+  "scope": "Disposable isolated Compose projects; no user deployment data overwritten."
+}

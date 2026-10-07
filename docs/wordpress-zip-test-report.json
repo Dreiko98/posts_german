@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Portable ZIP entries",
+    "Native admin multipart upload",
+    "Single-directory activation path",
+    "Activation",
+    "Authenticated connector health"
+  ],
+  "activation_path": "german-studio-connector/german-studio-connector.php",
+  "scope": "Fresh disposable loopback WordPress. No production changes."
+}

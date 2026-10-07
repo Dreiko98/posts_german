@@ -1,0 +1,1142 @@
+[
+  {
+    "screen": "home-desktop",
+    "styles": [
+      {
+        "tag": "BODY",
+        "text": "Tu privacidad importa\n\nEn germanmallo.com utilizamos cookies propias y",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgb(18, 18, 18)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "Tu privacidad importa",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "P",
+        "text": "En germanmallo.com utilizamos cookies propias y de terceros para el fu",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "germanmallo.com",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "Política Cookies",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Rechazar",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(0, 255, 133)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "Ir directo al contenido",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "0",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      }
+    ]
+  },
+  {
+    "screen": "blog-desktop",
+    "styles": [
+      {
+        "tag": "BODY",
+        "text": "Tu privacidad importa\n\nEn germanmallo.com utilizamos cookies propias y",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgb(18, 18, 18)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "Tu privacidad importa",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "P",
+        "text": "En germanmallo.com utilizamos cookies propias y de terceros para el fu",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "germanmallo.com",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "Política Cookies",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Rechazar",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(0, 255, 133)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "Ir directo al contenido",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "0",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      }
+    ]
+  },
+  {
+    "screen": "home-mobile",
+    "styles": [
+      {
+        "tag": "BODY",
+        "text": "Tu privacidad importa\n\nEn germanmallo.com utilizamos cookies propias y",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgb(18, 18, 18)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "Tu privacidad importa",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "P",
+        "text": "En germanmallo.com utilizamos cookies propias y de terceros para el fu",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "germanmallo.com",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "Política Cookies",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Rechazar",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(0, 255, 133)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "Ir directo al contenido",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\n\t\t\t0\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\n\t\n\n",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      }
+    ]
+  },
+  {
+    "screen": "blog-mobile",
+    "styles": [
+      {
+        "tag": "BODY",
+        "text": "Tu privacidad importa\n\nEn germanmallo.com utilizamos cookies propias y",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgb(18, 18, 18)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "Tu privacidad importa",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      },
+      {
+        "tag": "P",
+        "text": "En germanmallo.com utilizamos cookies propias y de terceros para el fu",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "germanmallo.com",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "A",
+        "text": "Política Cookies",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Rechazar",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "Aceptar",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgba(0, 0, 0, 0)",
+        "background": "rgba(255, 255, 255, 0.125)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(0, 255, 133)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "P",
+        "text": "",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "P",
+        "text": "No cookies to display.",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "Ir directo al contenido",
+        "color": "rgb(15, 15, 15)",
+        "background": "rgb(0, 255, 133)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "14px"
+      },
+      {
+        "tag": "BUTTON",
+        "text": "\n\t\n\t\n\t\t\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\n\t\t\n\t\t\t0\n\t\t\t\n\t\t\t\t\t\t\t\n\t\t\n\t\n\n",
+        "color": "rgb(255, 255, 255)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "16px"
+      },
+      {
+        "tag": "A",
+        "text": "\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "color": "rgb(153, 153, 153)",
+        "background": "rgba(0, 0, 0, 0)",
+        "font": "GeneralSans, Arial, sans-serif",
+        "size": "18px"
+      }
+    ]
+  }
+]

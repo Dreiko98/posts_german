@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "screenshots": 15,
+  "browser_errors": [],
+  "environment": "Real FastAPI, PostgreSQL and worker; test-only provider doubles; no production publishing."
+}

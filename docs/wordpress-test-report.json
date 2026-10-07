@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "wordpress": "6.9.4",
+  "yoast": "28.6",
+  "checks": [
+    "Authentication",
+    "Concurrent draft correlation",
+    "Readback",
+    "SEO allowlist and persistence",
+    "External edit conflict",
+    "Native core/paragraph parse/serialize"
+  ],
+  "scope": "Disposable loopback WordPress; no changes to germanmallo.com."
+}
