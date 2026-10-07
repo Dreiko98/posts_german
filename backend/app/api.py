@@ -985,6 +985,10 @@ def taxonomy_get(db=Depends(get_db)) -> dict:
 
 @app.post("/api/sync/metrics", status_code=202, dependencies=[Depends(require_session)])
 def metrics_sync(data: MetricsInput, db=Depends(get_db)) -> dict:
+    if data.daily:
+        from .analytics import validate_period
+
+        validate_period(data.start, data.end)
     if date.fromisoformat(data.start) > date.fromisoformat(data.end):
         raise AppError("periodo", "La fecha inicial debe ser anterior a la final.")
     return serialize(enqueue(db, "metrics", data.model_dump(), "sync:metrics"))
@@ -993,6 +997,13 @@ def metrics_sync(data: MetricsInput, db=Depends(get_db)) -> dict:
 @app.get("/api/metrics", dependencies=[Depends(require_session)])
 def metrics_get(db=Depends(get_db)) -> dict:
     return statistical_signals(db)
+
+
+@app.get("/api/analytics", dependencies=[Depends(require_session)])
+def analytics_get(start: str, end: str, db=Depends(get_db)) -> dict:
+    from .analytics import analytics_dashboard
+
+    return analytics_dashboard(db, start, end)
 
 
 @app.get("/api/jobs", dependencies=[Depends(require_session)])

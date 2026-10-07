@@ -50,7 +50,7 @@ def restore(source, config, project, port=None):
     for _ in range(60):
         try:
             deployment.run(
-                ["exec", "-T", "db", "pg_isready", "-U", "studio", "-d", "studio"]
+                ["exec", "-T", "db", "pg_isready", "-h", "127.0.0.1", "-U", "studio", "-d", "studio"]
             )
             break
         except Exception:

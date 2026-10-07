@@ -21,11 +21,15 @@ export function IdeasPage({
   refresh,
   openPub,
   jobs,
+  initialBrief,
+  clearBrief,
 }: {
   action: Action;
   refresh: number;
   openPub: (id: string) => void;
   jobs: Job[];
+  initialBrief?: string;
+  clearBrief?: () => void;
 }) {
   const [ideas, setIdeas] = useState<Idea[] | null>(null),
     [q, setQ] = useState(""),
@@ -36,6 +40,14 @@ export function IdeasPage({
     [discard, setDiscard] = useState<Idea | null>(null),
     [busy, setBusy] = useState(false),
     [estimate, setEstimate] = useState<Estimate | null>(null);
+  const [manualBrief, setManualBrief] = useState("");
+  useEffect(() => {
+    if (initialBrief) {
+      setManualBrief(initialBrief);
+      setModal("manual");
+      clearBrief?.();
+    }
+  }, [initialBrief]);
   useEffect(() => {
     api<Idea[]>("/ideas")
       .then(setIdeas)
@@ -338,6 +350,7 @@ export function IdeasPage({
                   ¿Qué tienes en mente?
                   <textarea
                     name="instructions"
+                    defaultValue={manualBrief}
                     rows={5}
                     placeholder="Quiero escribir sobre…"
                     maxLength={5000}

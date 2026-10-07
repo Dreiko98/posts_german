@@ -1,5 +1,13 @@
 # Validación de la entrega
 
+## Analítica editorial — 7 de octubre de 2026
+
+Se añadió una sección Analítica con importación diaria independiente de métricas por periodos, series interactivas, rankings por artículo/tema/formato, consultas y canales, recomendaciones accionables, Wilson, anomalías MAD, proyección de referencia con backtest, Spearman y datos de producción/coste IA. Métodos, límites y uso: [ANALYTICS.md](ANALYTICS.md).
+
+Validación: **65 pruebas backend aprobadas**, TypeScript/Vite y Ruff; navegador en escritorio y 390 px (pestañas, gráfico, prellenado de idea sin llamada IA y ausencia de desbordamiento). Capturas de regresión en screenshots/analytics-*-test.png son datos simulados explícitos. Backup previo guardado en `.local/before-analytics-20261007`, migración 0004 aplicada y nueva versión desplegada localmente.
+
+Importación real autorizada de estadísticas, sin escritura en las plataformas ni llamadas IA: 7 julio–4 octubre, 90 días. GA4: 81 filas diarias del sitio y 662 del detalle; Search Console: 90 filas del sitio y 164 del detalle de consultas (parcial). Trabajo terminado sin errores. Dashboard real validado contra 75 publicaciones, 64 consultas agregadas y una recomendación elegible. Proyección de clics disponible; vistas sin proyección por falta de observaciones consecutivas. Endpoint protegido: 401 sin sesión. Los cuatro servicios están saludables.
+
 ## Recuperación del arranque — 7 de octubre de 2026
 
 Diagnóstico de investigación OpenAI posterior: el primer intento guardó fuentes pero alguna llamada web no finalizó; el reintento del propietario completó la investigación y el paso de ideas fue rechazado por el proveedor. La respuesta original de rechazo no se conservaba, por lo que no se puede confirmar su parámetro exacto. Se hizo explícita la instrucción JSON también en el input, se recordó el límite de llamadas web al modelo y se añadieron estados de herramientas al diagnóstico y HTTP/parámetros conocidos a los errores, sin exponer respuestas remotas. Siete pruebas de adaptadores aprobadas con dobles, incluidas tres regresiones nuevas. La aceptación real de la petición corregida queda pendiente del siguiente reintento del propietario; no se iniciaron llamadas pagadas para probarla.

@@ -214,6 +214,31 @@ class Metric(Record, Base):
     )
 
 
+class AnalyticsRow(Record, Base):
+    __tablename__ = "analytics_rows"
+    provider: Mapped[str] = mapped_column(String(30))
+    property: Mapped[str] = mapped_column(Text)
+    dataset: Mapped[str] = mapped_column(String(20))
+    day: Mapped[str] = mapped_column(String(10), index=True)
+    dimensions: Mapped[dict] = mapped_column(JSONB)
+    values: Mapped[dict] = mapped_column(JSONB)
+    quality: Mapped[str] = mapped_column(String(40))
+    __table_args__ = (
+        UniqueConstraint("provider", "property", "dataset", "day", "dimensions"),
+    )
+
+
+class AnalyticsBatch(Record, Base):
+    __tablename__ = "analytics_batches"
+    provider: Mapped[str] = mapped_column(String(30))
+    property: Mapped[str] = mapped_column(Text)
+    dataset: Mapped[str] = mapped_column(String(20))
+    start: Mapped[str] = mapped_column(String(10))
+    end: Mapped[str] = mapped_column(String(10))
+    metadata_: Mapped[dict] = mapped_column("metadata", JSONB)
+    rows: Mapped[int] = mapped_column(Integer)
+
+
 class Job(Record, Base):
     __tablename__ = "jobs"
     kind: Mapped[str] = mapped_column(String(40))

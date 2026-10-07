@@ -137,6 +137,7 @@ class Preferences(Contract):
 class MetricsInput(Contract):
     start: str = Field(pattern=r"^\d{4}-\d{2}-\d{2}$")
     end: str = Field(pattern=r"^\d{4}-\d{2}-\d{2}$")
+    daily: bool = False
 
 
 class EditorialReview(Contract):

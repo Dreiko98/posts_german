@@ -17,6 +17,7 @@ import { Modal, ErrorBox, Loading, CostEstimate, JobsPanel } from "./ui";
 import { IdeasPage } from "./Ideas";
 import { PublicationsPage, Editor } from "./Publications";
 import { SettingsPage } from "./Settings";
+import { AnalyticsPage } from "./Analytics";
 
 export type Action = <T>(
   work: () => Promise<T>,
@@ -127,6 +128,7 @@ export default function App() {
       new URLSearchParams(location.search).get("view") || "ideas",
     ),
     [pubId, setPubId] = useState<string | null>(null);
+  const [ideaBrief, setIdeaBrief] = useState("");
   const [prefs, setPrefs] = useState<Preferences | null>(null),
     [cat, setCat] = useState<Catalog | null>(null),
     [jobs, setJobs] = useState<Job[]>([]),
@@ -285,6 +287,7 @@ export default function App() {
           {[
             { id: "ideas", label: "Ideas", icon: Lightbulb },
             { id: "publicaciones", label: "Publicaciones", icon: FileText },
+            { id: "analitica", label: "Analítica", icon: Activity },
             { id: "ajustes", label: "Ajustes", icon: SlidersHorizontal },
           ].map((item) => (
             <button
@@ -383,6 +386,19 @@ export default function App() {
               refresh={refresh}
               openPub={openPub}
               jobs={jobs}
+              initialBrief={ideaBrief}
+              clearBrief={() => setIdeaBrief("")}
+            />
+          ) : view === "analitica" ? (
+            <AnalyticsPage
+              action={action}
+              refresh={refresh}
+              jobs={jobs}
+              openPub={openPub}
+              prepareIdea={(brief) => {
+                setIdeaBrief(brief);
+                setView("ideas");
+              }}
             />
           ) : view === "publicaciones" ? (
             pubId ? (

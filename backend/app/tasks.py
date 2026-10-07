@@ -582,6 +582,24 @@ def run_task(db, job, owner):
                 checkpoint(db, job, "metrics", results)
             except AppError as exc:
                 errors[provider] = exc.public()
+        if job.parameters.get("daily"):
+            from .analytics import sync_daily
+
+            daily_results = dict(job.checkpoints.get("daily_metrics", {}))
+            for provider in ("ga4", "search_console"):
+                if provider in daily_results:
+                    continue
+                assert_active(db, job, owner)
+                phase(db, job, owner, "Importando series diarias de " + provider, 60)
+                try:
+                    daily_results[provider] = sync_daily(
+                        db, provider, job.parameters["start"], job.parameters["end"]
+                    )
+                    checkpoint(db, job, "daily_metrics", daily_results)
+                except AppError as exc:
+                    db.rollback()
+                    errors[provider + "_daily"] = exc.public()
+            results["daily"] = daily_results
         return {"metrics": results, "errors": errors, "partial": bool(errors)}
     pub = db.get(Publication, job.parameters["publication_id"])
     phase(db, job, owner, "Comprobando estado de plataforma", 25)
